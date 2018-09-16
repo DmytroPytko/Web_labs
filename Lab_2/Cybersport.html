@@ -1,120 +1,168 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="index.css"/>
-        <title>Cybersport</title>
-    </head>
-    <style>
-    *{
-        background-color: #808080;
-        color: #F5F5F5;
-    }
-    header{
-        position: fixed;
-        width: 100%;
-        height: 75px;
-        background-color: #696969;
-    }
-    nav ul{
-        list-style-type: none;
-    }
-    nav li{
-        float: left;
-        text-align: center;
-        border: 3px solid ;
-        height: 30px;
-        width: 100px;
-        padding-top: 10px;
-    }
-    nav a{
-        text-decoration: none;
-    }
-    header img{
-        float: right;
-        margin-right: 20px;
-        background-color: #696969;
-    }
-    h2{
-        text-align: center;
-    }
-    footer{
-        margin-top: 50px;
-        height: 150px;
-        width: 100%;
-        background-color: #696969;
-    }
-    footer p{
-        position: relative;
-        top: 35px;
-    }
-    #navbar ul{
-        display: none;
-        position: absolute;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cyber</title>
+</head>
+<body>
+	
+</body>
+</html>DOCTYPE html>
+<html>
+<head>
+	<title>Cybersport</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+body
+{
+	background-color: #6898A2 
+}
 
-    #navbar li:hover ul {
-        display: block;
-    }
 
-    #navbar ul{
-        position: relative;
-        top: 15px;
-        left: -43px;
-    }
-    #navbar li {
-        float: left;
-        position: relative;
-    }
-    #navbar li:hover{ 
-        border:3px solid #A9A9A9;
-    }
-    #footermenu{
-        background-color: #696969;
-        margin-left: 40px;
-        margin-top: 80px;
-    }
-        
 
-    </style>
-    <body>
-        <header>
-            <nav>
-                <ul id="navbar">
-                    <li><a href="">Main</a></li>
-                    <li><a href="">Matches</a>
-                        <ul >
-                            <li><a href="">Next game</a></li>
-                            <li><a href="">Raitigs</a></li>
-                            <li><a href="">Calendar of matches</a>
-                        </ul>
-                    </li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Fans</a></li>
-                    <li><a href="">Contacts</a></li>
-                    <li><a href="">Admin</a></li>
-                </ul>
-            </nav>
-            <div>
-                <img src="E:\opa.png" alt="" style="width: 185px;">
+nav {
+    margin: 0;
+    background-color: #59848D;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+nav img {
+	float: right;
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+	margin: 0px 30px 0 0;
+	display:inline-block;
+	background-color: #59848D
+}
+nav a {
+	display:block;
+	padding:0 10px;
+	color:#FFFFFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+nav a:hover {
+	background-color: #80bfff;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul {
+	display:inherit;
+}
+nav ul ul li {
+	min-width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+a:hover {
+	background-color: #000000;
+}
+#logo {
+	margin-left: 440px;
+	margin-top: 70px;
+}
+main h1{
+	text-align: center;
+	font-size: 54px;
+	color: #FFFFFF;
+	font-family: Comic Sans MS;
+}
+#history {
+	width: 100%;
+	height: 300px;
+	background: #59848D;
+	border-radius: 15px;
+}
+
+
+#last_match {
+	width: 100%;
+	height: 300px;
+	background: #59848D;
+	border-radius: 15px;
+}
+
+#lv {
+	margin-left: 500px;
+	margin-top: -100px;
+}
+
+#ol {
+	margin-left: 100px;
+	margin-top: -100px;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background: #59848D;
+	margin-top: 20px;
+}
+</style>
+
+<body>
+
+	<nav>
+		<div>
+                <img src="http://wiki.mephist.ru/images/4/40/%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%B2_%D0%9C%D0%98%D0%A4%D0%98.png" alt="" width="140">
             </div>
-        </header>
-        <content>
-            <div>
-                <img src="http://xfan.bet/images/cyb.png" alt="NAVI team" width=1500>
+		<ul>
+			<li><a href="#">Main</a></li>
+			<li><a href="#">Matches</a>
+				<ul>
+					<li><a href="">Calendar of matches</a></li>
+					<li><a href="">Next games</a></li>
+					<li><a href="">Ratings</a></li>
+				</ul>
+			</li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Fans</a></li>
+			<li><a href="#">Contacts</a></li>
+			<li><a href="#">Admin</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div>
+                <img src="http://xfan.bet/images/cyb.png" alt="" width=1505 >
             </div>
-            <div>
-                <h2>Ціль та напрямок</h2>
-                <p align="center" style="font-size:20px" >Цей сайт було створено з метою розвитку такого виду спорту, як "кіберспорт".Багато хто вважає цю дисципліну лиш забавкою для людей, де немає фізичного навантаження, проте там розвинене логічне мислення і допоможемо вам зрозуміти, що це також спорт.</p>
-            </div>
-            <div>
-                <h2>Остання перемога</h2>
-                <p>Останнім переможцем стала команда OG з дисципліни DOTA 2</p>
-            </div>
-        </content>
-        <footer>
-            <div>
-                <p id=footermenu>Написав:QwErTy<br>Контактна інформація: <a href="mailto:someone@example.com">someone@example.com</a>.</br></p>
-            </div>
-        </footer>
-    </body>
-    </html>
+		<h1>Кіберспорт, як стиль життя</h1>
+		<div id="history">
+			<h2 style="text-align: center; color: #FFFFFF; font-size: 48px;">Історія</h2>
+			<strong>
+			 <p align="center" style="font-size:20px; color: #FFFFFF">Спортивні змагання з відеоігор. Історія електронного спорту почалася з гри Quake, яка мала режим мережевої гри через LAN або інтернет. Завдяки популярності гри Doom, в 1997 році в США з'явилася перша ліга електронного спорту — Cyberathlete Professional League (CPL)[1]. Відтоді з'явилося багато нових ліг із кіберспорту.</p>
+			</strong>
+		</div><br>
+
+		<div id="last_match">
+			<h2 style="text-align: center; color: #FFFFFF; font-size: 48px;">Остання значима гра</h2>
+			<p style="text-align: center; color: #FFFFFF; font-size: 20px;">06.08.2018, м.Ванкувер стадіон "Роджер-Арена" OV vs PSG.LGD  дисципліни DOTA 2</p>
+			<p style="text-align: center; padding-top: 40px; color: #FFFFFF; font-size: 24px;"><strong>3:2</strong></p>
+			<img src="E:\og.png" id="lv" alt="lviv" width="123"style="margin-right: 160px;">
+			<img src="E:\psg.png" id="ol" alt="olexandria" width="123">
+		</div>
+	</main>
+
+	<footer>
+
+<div class="legal_footer" style="padding-left: 50px">
+		<img id="valveLogoLegal" src="http://media.steampowered.com/apps/dota2/images/blogfiles/valve_logo_footer.png" width="112" height="34" border="0"><img>
+		&copy; Valve Corporation, all rights reserved. Valve, the Valve logo, Steam, the Steam logo, Source, the Source logo, Valve Source and Dota are trademarks and/or registered trademarks of Valve Corporation. 
+	</div>
+	</footer>
+
+</body>
+</html>
